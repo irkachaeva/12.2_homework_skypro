@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "12-2-homework"
+version = "0.1.0"
+description = "homework_tests"
+authors = ["Your Name <you@example.com>"]
+license = "01"
+readme = "README.md"
+packages = [{include = "12"}]
+
+[tool.poetry.dependencies]
+python = "3.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
